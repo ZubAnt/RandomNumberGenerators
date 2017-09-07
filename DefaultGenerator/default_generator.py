@@ -22,7 +22,7 @@ class DefaultGenerator(object):
 
     def generate(self):
         new_x = self._x ** 2
-        new_x_str = "{{:.{}f}}".format(2 * self.sequence.size).format(new_x)
+        new_x_str = "{{:.{}f}}".format(2 * self.sequence.size).format(new_x)        # Форматирование с точностью
         sub_sequence_str = new_x_str[self.sequence.size: 2 * self.sequence.size]
 
         # print(sub_sequence_str)
