@@ -1,4 +1,4 @@
-from default_generator.sequence import Sequence
+from default.sequence import Sequence
 
 
 class DefaultGenerator(object):
