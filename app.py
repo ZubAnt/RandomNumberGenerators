@@ -1,4 +1,4 @@
-from DefaultGenerator.default_generator import DefaultGenerator
+from default_generator.generator import DefaultGenerator
 
 seq1 = [4, 5, 0, 0]
 seq2 = [1, 2, 3, 4, 5, 6, 7, 8]
