@@ -9,18 +9,6 @@ class CongruentGenerator(object):
         self._z0 = z0
         self._divider = 2 ** mu
 
-    # @property
-    # def mu(self) -> int:
-    #     return self._mu
-    #
-    # @property
-    # def lamb(self) -> int:
-    #     return self._lamb
-    #
-    # @property
-    # def z0(self) -> int:
-    #     return self._z0
-
     def generate(self):
         zlamb = self._z0 * self._lamb
         zlamb_binary = np.binary_repr(zlamb, width=self._mu)
